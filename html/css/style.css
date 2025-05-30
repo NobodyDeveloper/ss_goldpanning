@@ -1,0 +1,14 @@
+body {
+    overflow: hidden;
+}
+
+.canvas {
+    display: none;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.background {
+    z-index: 2;
+}

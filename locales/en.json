@@ -1,0 +1,16 @@
+{
+    "title": "Gold Panning",
+    "nothingFound": "You found nothing in the pan.",
+    "fillingPan": "Filling the pan with water...",
+    "foundDirt": "You found some dirt in the pan.",
+    "foundGold": "You found some gold in the pan!",
+    "smeltingGold_Title": "Gold Smelting",
+    "smeltingGold_Button": "Smelt Gold",
+    "NoGoldDesc": "You Don't have enough gold to smelt.",
+    "smeltingGold_Amount": "How much gold do you want to smelt?",
+    "smeltingGold_Progress": "Smelting gold...",
+    "cleaningDirt": "Washing the dirt covered object...",
+    "requireWater": "You need to be in water to do this.",
+    "busy": "You are busy right now.",
+    "nothingFoundDirt": "You found nothing in the dirt."
+}
