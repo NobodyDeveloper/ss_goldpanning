@@ -20,6 +20,7 @@ function HandleRewardItem(player)
 
     if noRewardRoll >= chance then
         Notify(player, locale('nothingFoundDirt'), "error", 8000)
+        RemoveItem(player, Config.Dirt.DirtItem, 1)
         return
     end
 
@@ -53,6 +54,9 @@ function HandleRewardItem(player)
         local amount = math.random(selectedReward.min, selectedReward.max)
 
         AddItem(player, selectedReward.item, amount)
+    else
+        -- If no reward was found
+        print('No rewards were eligible for player: ' .. player)
     end
 
     RemoveItem(player, Config.Dirt.DirtItem, 1)

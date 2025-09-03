@@ -43,8 +43,8 @@ Config.GoldSmelting = {
 Config.Dirt = {
     AllowDirtItem = true,   -- Allow the player to find dirt (filler Items) when panning
     CleaningTime = 5,       -- Time in seconds to clean the dirt item
-    DirtChance = 0.4,       -- Chance to find dirt when panning (0.4 = 40%)
-    ItemInDirtChance = 0.4, -- Chance to find an item in the dirt when cleaning it (0.4 = 40%)
+    DirtChance = 0.4,       -- Chance to find dirt when panning
+    ItemInDirtChance = 0.4, -- Chance to find an item in the dirt when cleaning it
     DirtItem = 'dirt',      -- Item name for the dirt item
 
     -- Below is the table of rewards for the dirt item.
@@ -55,7 +55,8 @@ Config.Dirt = {
         [1] = { item = 'bandage', min = 1, max = 1, chance = 90 },
         [2] = { item = 'lighter', min = 1, max = 1, chance = 90 },
         [3] = { item = 'metalscrap', min = 1, max = 2, chance = 90 },
-        -- add as many as you like here
+        [4] = { item = 'iron', min = 1, max = 2, chance = 90 },
+
     }
 }
 
